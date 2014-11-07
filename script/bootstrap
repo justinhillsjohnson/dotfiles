@@ -136,8 +136,18 @@ install_dotfiles () {
   done
 }
 
+link_st3_prefs () {
+  info 'installing sublime text 3 preferences'
+
+  local overwrite_all=false backup_all=false skip_all=false
+  src="$DOTFILES_ROOT/st3/Preferences.sublime-settings"
+  dst="$HOME/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+  link_file "$src" "$dst"
+}
+
 setup_gitconfig
 install_dotfiles
+link_st3_prefs
 
 # If we're on a Mac, let's install and setup homebrew.
 if [ "$(uname -s)" == "Darwin" ]

@@ -20,6 +20,9 @@ $ZSHDOT/homebrew/install.sh 2>&1
 brew install z
 touch ~/.z
 
+# Install 'tree'
+brew install tree
+
 # Install oh-my-zsh
 curl -L http://install.ohmyz.sh | sh
 cd ~/.oh-my-zsh/custom/plugins
