@@ -17,6 +17,8 @@ $ZSHDOT/homebrew/install.sh 2>&1
 
 # Install 'z'
 # https://github.com/rupa/z
+brew install z
+touch ~/.z
 
 # Install oh-my-zsh
 curl -L http://install.ohmyz.sh | sh
