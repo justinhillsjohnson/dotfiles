@@ -1,1 +1,0 @@
-plugins=(git sublime rails lighthouse)
