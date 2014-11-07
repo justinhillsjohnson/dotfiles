@@ -14,3 +14,8 @@ brew update
 
 # Install homebrew packages
 $ZSHDOT/homebrew/install.sh 2>&1
+
+#Install oh-my-zsh
+curl -L http://install.ohmyz.sh | sh
+cd ~/.oh-my-zsh/custom/plugins
+git clone git://github.com/zsh-users/zsh-syntax-highlighting.git
