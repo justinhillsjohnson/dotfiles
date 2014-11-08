@@ -140,9 +140,13 @@ link_st3_prefs () {
   info 'installing sublime text 3 preferences'
 
   local overwrite_all=false backup_all=false skip_all=false
-  src="$DOTFILES_ROOT/st3/Preferences.sublime-settings"
-  dst="$HOME/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
-  link_file "$src" "$dst"
+
+  IFS=$'\n'
+  for src in $(find "$DOTFILES_ROOT/st3" -maxdepth 2 -iname '*' )
+  do
+    dst="$HOME/Library/Application Support/Sublime Text 3/Packages/User/$(basename $src)"
+    link_file "$src" "$dst"
+  done
 }
 
 setup_gitconfig
