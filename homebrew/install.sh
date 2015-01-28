@@ -15,4 +15,7 @@ fi
 # Install homebrew packages
 brew install grc coreutils spark
 
+# Install Git
+brew install git
+
 exit 0
