@@ -17,4 +17,4 @@ alias dev="cd ~/Dropbox/_dev/"
 alias server='python -m SimpleHTTPServer'
 
 # MAMP PHP v
-alias php='/Applications/MAMP/bin/php/php5.5.18/bin/php'
+alias php='/Applications/MAMP/bin/php/php5.6.2/bin/php'

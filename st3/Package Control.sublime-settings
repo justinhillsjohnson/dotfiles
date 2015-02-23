@@ -1,6 +1,12 @@
 {
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
+		"Better CoffeeScript",
+		"CoffeeAngular Syntax",
+		"CombineAndMinify",
 		"DocBlockr",
 		"Dotfiles Syntax Highlighting",
 		"Emmet",
@@ -8,8 +14,12 @@
 		"GitGutter",
 		"GitHub Flavored Markdown Preview",
 		"JsFormat",
+		"Minify",
+		"Package Control",
 		"Predawn",
+		"Ruby Slim",
 		"Sass",
-		"SideBarEnhancements"
+		"SideBarEnhancements",
+		"Siteleaf Liquid Syntax"
 	]
 }
