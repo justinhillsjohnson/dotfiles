@@ -1,11 +1,11 @@
 {
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/Predawn/predawn.tmTheme",
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
 	"draw_white_space": "all",
 	"ensure_newline_at_eof_on_save": true,
-	"font_face": "Ubuntu Mono",
+	"font_face": "Source Code Pro",
 	"font_options": "subpixel_antialias",
-	"font_size": 15,
+	"font_size": 13,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -13,15 +13,15 @@
 		"SideBarEnhancements",
 		"Vintage"
 	],
-	"line_padding_bottom": 1,
-	"line_padding_top": 1,
+	"line_padding_bottom": 3,
+	"line_padding_top": 3,
 	"rulers":
 	[
 		80
 	],
 	"scroll_past_end": true,
 	"tab_size": 2,
-	"theme": "predawn.sublime-theme",
+	"theme": "Default.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"word_wrap": true
 }
