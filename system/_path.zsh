@@ -9,3 +9,7 @@ export AWS_RDS_HOME=~/bin/RDSCli
 export PGHOST=localhost
 export PATH="/usr/local/heroku/bin:$PATH"
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+export DOCKER_CERT_PATH=/Users/justin/.boot2docker/certs/boot2docker-vm
+export DOCKER_TLS_VERIFY=1
+export DOCKER_HOST=tcp://192.168.59.103:2376
