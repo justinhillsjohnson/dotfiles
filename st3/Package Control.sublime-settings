@@ -1,4 +1,5 @@
 {
+	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
@@ -10,16 +11,21 @@
 		"DocBlockr",
 		"Dotfiles Syntax Highlighting",
 		"Emmet",
+		"FileOpTabContextMenu",
 		"Gist",
 		"GitGutter",
 		"GitHub Flavored Markdown Preview",
 		"JsFormat",
+		"Material Theme",
 		"Minify",
+		"OpenInBrowser",
 		"Package Control",
 		"Predawn",
 		"Ruby Slim",
 		"Sass",
 		"SideBarEnhancements",
-		"Siteleaf Liquid Syntax"
+		"Siteleaf Liquid Syntax",
+		"SublimeLinter-contrib-eslint",
+		"SublimeLinter-rubocop"
 	]
 }
