@@ -13,9 +13,6 @@ then
 fi
 
 # Install homebrew packages
-brew install grc coreutils spark
-
-# Install Git
-brew install git
+brew install grc coreutils spark ponysay git boot2docker brew-cask node z
 
 exit 0
