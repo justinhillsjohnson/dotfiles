@@ -2,10 +2,10 @@
 #   Made possible through contributions from generous benefactors like
 #   `brew install coreutils`
 
-alias ls="ls -F --color"
-alias l="ls -lAh --color"
-alias ll="ls -l --color"
-alias la='ls -A --color'
+alias ls="ls -F"
+alias l="ls -lAh"
+alias ll="ls -l"
+alias la="ls -A"
 
 alias hosts="subl /private/etc/hosts"
 alias pg-start='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start'

@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"API Blueprint",
 		"Better CoffeeScript",
 		"CoffeeAngular Syntax",
 		"CombineAndMinify",
@@ -18,14 +19,18 @@
 		"JsFormat",
 		"Material Theme",
 		"Minify",
+		"MJML-syntax",
 		"OpenInBrowser",
 		"Package Control",
 		"Predawn",
+		"React Templates",
+		"ReactJS",
 		"Ruby Slim",
 		"Sass",
 		"SideBarEnhancements",
 		"Siteleaf Liquid Syntax",
 		"SublimeLinter-contrib-eslint",
-		"SublimeLinter-rubocop"
+		"SublimeLinter-rubocop",
+		"Swift"
 	]
 }
