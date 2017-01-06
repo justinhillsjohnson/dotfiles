@@ -5,14 +5,15 @@
 # `dot` handles installation, updates, things like that. Run it periodically
 # to make sure you're on the latest and greatest.
 export ZSHDOT=$HOME/.dotfiles
+export TERM="xterm-256color"
+
+# System fonts
+git clone git@github.com:powerline/fonts.git && ./fonts/install.sh
 
 # Set OS X defaults
 $ZSHDOT/osx/set-defaults.sh
 
-# Upgrade homebrew
-brew update
-
-# Install homebrew packages
+# Install homebrew
 $ZSHDOT/homebrew/install.sh 2>&1
 
 # Install 'z'
@@ -20,10 +21,10 @@ $ZSHDOT/homebrew/install.sh 2>&1
 brew install z
 touch ~/.z
 
-# Install 'tree'
-brew install tree
-
-# Install oh-my-zsh
+# Install oh-my-zsh, plugins, and themes
 curl -L http://install.ohmyz.sh | sh
-cd ~/.oh-my-zsh/custom/plugins
-git clone git://github.com/zsh-users/zsh-syntax-highlighting.git
+git clone git://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins
+cp zsh/custom/themes/*.* ~/.oh-my-zsh/themes/
+
+# RVM
+\curl -sSL https://get.rvm.io | bash

@@ -8,11 +8,26 @@
 # Check for Homebrew
 if test ! $(which brew)
 then
-  echo "  Installing Homebrew for you."
+  echo "Installing Homebrew for you."
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" > /tmp/homebrew-install.log
 fi
 
-# Install homebrew packages
-brew install grc coreutils spark ponysay git boot2docker brew-cask node z
+# Update
+brew update
+
+# Install packages
+brew install grc coreutils spark ponysay git boot2docker node tree
+
+# Install Cask
+brew tap caskroom/cask
+
+# Install core apps
+brew cask install google-chrome 1password cloud dropbox joinme
+
+# Install dev apps
+brew cask install atom slack charles dash diffmerge sourcetree transmit visual-studio-code sublime-text postman iterm2
+
+# Install personal apps
+brew cask install amazon-music appcleaner boom dash evernote transmission onyx omnidisksweeper unrarx private-internet-access handbrake install-disk-creator kindle
 
 exit 0

@@ -21,9 +21,11 @@
     ]
   editor:
     fontFamily: "Menlo"
-    fontSize: 15
+    fontSize: 12
     invisibles: {}
     showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
   "release-notes":
     viewedVersion: "0.89.0"
   "spell-check":
