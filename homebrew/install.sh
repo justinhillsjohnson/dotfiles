@@ -25,7 +25,7 @@ brew tap caskroom/cask
 brew cask install google-chrome 1password cloud dropbox joinme
 
 # Install dev apps
-brew cask install atom slack charles dash diffmerge sourcetree transmit visual-studio-code sublime-text postman iterm2
+brew cask install atom slack charles dash diffmerge sourcetree transmit visual-studio-code sublime-text postman iterm2 virtualbox genymotion postman mongochef
 
 # Install personal apps
 brew cask install amazon-music appcleaner boom dash evernote transmission onyx omnidisksweeper unrarx private-internet-access handbrake install-disk-creator kindle

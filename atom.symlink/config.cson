@@ -16,8 +16,8 @@
     ]
     telemetryConsent: "no"
     themes: [
-      "unity-ui"
-      "glacier-syntax"
+      "atom-dark-ui"
+      "atom-material-syntax"
     ]
   editor:
     fontFamily: "Menlo"
