@@ -16,13 +16,13 @@ fi
 brew update
 
 # Install packages
-brew install grc coreutils spark ponysay git boot2docker node tree
+brew install grc coreutils spark ponysay git boot2docker node tree openssl postgres
 
 # Install Cask
 brew tap caskroom/cask
 
 # Install core apps
-brew cask install google-chrome 1password cloud dropbox joinme
+brew cask install google-chrome 1password cloud dropbox joinme java
 
 # Install dev apps
 brew cask install atom slack charles dash diffmerge sourcetree transmit visual-studio-code sublime-text postman iterm2 virtualbox genymotion postman mongochef
