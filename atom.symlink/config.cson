@@ -1,38 +1,19 @@
 "*":
+  "atom-package-deps":
+    ignored: []
   core:
-    disabledPackages: [
-      "background-tips"
-      "exception-reporting"
-      "metrics"
-    ]
-    hideGitIgnoredFiles: true
-    ignoredNames: [
-      ".bundle"
-      ".git"
-      "log"
-      "repositories"
-      "tmp"
-      "vendor"
-    ]
-    telemetryConsent: "no"
-    themes: [
-      "atom-dark-ui"
-      "atom-material-syntax"
-    ]
+    telemetryConsent: "limited"
   editor:
-    fontFamily: "Menlo"
-    fontSize: 12
-    invisibles: {}
-    showIndentGuide: true
+    fontSize: 11
     showInvisibles: true
-    softWrap: true
-  "release-notes":
-    viewedVersion: "0.89.0"
-  "spell-check":
-    grammars: [
-      "text.plain"
-      "source.gfm"
-      "text.git-commit"
-    ]
+  "exception-reporting":
+    userId: "54e86a08-134e-47f3-bd24-fd8b910af399"
+  "go-plus":
+    currentPanelHeight: "32.75830258302583vh"
+    panel:
+      currentHeight: "23.75461254612546vh"
+  "linter-ui-default":
+    panelHeight: 93
+    showPanel: true
   welcome:
     showOnStartup: false
