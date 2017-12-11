@@ -12,6 +12,15 @@ alias pg-start='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/ser
 alias pg-stop='pg_ctl -D /usr/local/var/postgres stop -s -m fast'
 alias dev="cd ~/Dropbox/_dev/"
 
+# Zipalign
+zipalign () {
+  ~/Library/Android/sdk/build-tools/25.0.2/zipalign $@
+}
+
+android () {
+  ~/Library/Android/sdk/tools/android $@
+}
+
 # Simple Python server
 # Run as $ server
 alias server='python -m SimpleHTTPServer'

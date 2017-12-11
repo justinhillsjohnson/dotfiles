@@ -1,17 +1,24 @@
 "*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "c641d1f5-aab1-40eb-94b5-5625b54675dc"
   "atom-package-deps":
     ignored: []
   core:
     telemetryConsent: "limited"
   editor:
-    fontSize: 11
+    fontSize: 12
     showInvisibles: true
   "exception-reporting":
     userId: "54e86a08-134e-47f3-bd24-fd8b910af399"
+  "git-blame":
+    columnWidth: 274
+  "go-debug":
+    dlvPath: "/Users/justin/Library/Mobile\\ Documents/com~apple~CloudDocs/Development/go/bin/dlv"
   "go-plus":
     currentPanelHeight: "32.75830258302583vh"
     panel:
-      currentHeight: "23.75461254612546vh"
+      currentHeight: "9.66789667896679vh"
   "linter-ui-default":
     panelHeight: 93
     showPanel: true
