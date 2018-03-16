@@ -9,7 +9,7 @@ export PGHOST=localhost
 export PATH="/usr/local/heroku/bin:$PATH"
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
-export GOPATH=$HOME/Library/Mobile\ Documents/com~apple~CloudDocs/Development/go
+export GOPATH=$HOME/_dev/go
 export PATH=$PATH:$(go env GOPATH)/bin
 
 export DOCKER_CERT_PATH=/Users/justin/.boot2docker/certs/boot2docker-vm
