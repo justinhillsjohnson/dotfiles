@@ -7,12 +7,12 @@
   core:
     telemetryConsent: "limited"
   editor:
-    fontSize: 12
+    fontSize: 13
     showInvisibles: true
   "exception-reporting":
     userId: "54e86a08-134e-47f3-bd24-fd8b910af399"
   "git-blame":
-    columnWidth: 274
+    columnWidth: -1
   "go-debug":
     dlvPath: "/Users/justin/Library/Mobile\\ Documents/com~apple~CloudDocs/Development/go/bin/dlv"
   "go-plus":
@@ -22,7 +22,7 @@
     panel:
       currentHeight: "9.66789667896679vh"
   "linter-ui-default":
-    panelHeight: 232
+    panelHeight: 146
     showPanel: true
   welcome:
     showOnStartup: false

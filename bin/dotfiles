@@ -1,0 +1,35 @@
+#!/bin/sh
+#
+# dot
+#
+# `dot` handles installation, updates, things like that. Run it periodically
+# to make sure you're on the latest and greatest.
+export ZSHDOT=$HOME/.dotfiles
+export TERM="xterm-256color"
+
+# System fonts
+git clone git@github.com:powerline/fonts.git && ./fonts/install.sh
+
+# Set OS X defaults
+$ZSHDOT/osx/set-defaults.sh
+
+# Install homebrew
+$ZSHDOT/homebrew/install.sh 2>&1
+
+# Install 'z'
+# https://github.com/rupa/z
+brew install z
+touch ~/.z
+
+# Install oh-my-zsh, plugins, and themes
+curl -L http://install.ohmyz.sh | sh
+git clone git://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins
+cp zsh/custom/themes/*.* ~/.oh-my-zsh/themes/
+
+# RVM and Ruby
+\curl -sSL https://get.rvm.io | bash
+rvm install 2.4.0
+rvm use 2.4.0 --default
+
+# Mac CLI
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/guarinogabriel/mac-cli/master/mac-cli/tools/install)"
