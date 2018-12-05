@@ -30,36 +30,29 @@ alias sshfix='ssh-add -K ~/.ssh/id_rsa'
 
 # Docker
 dc () {
-  eval "$(docker-machine env default)"
   docker-compose $@
 }
 
 dcu () {
-  eval "$(docker-machine env default)"
   docker-compose up $@
 }
 
 dcub () {
-  eval "$(docker-machine env default)"
   docker-compose up --build $@
 }
 
 dcb () {
-  eval "$(docker-machine env default)"
   docker-compose build $@
 }
 
 dcs () {
-  eval "$(docker-machine env default)"
   docker-compose stop $@
 }
 
 dcrun () {
-  eval "$(docker-machine env default)"
   docker-compose run $@
 }
 
 dcrestart () {
-  eval "$(docker-machine env default)"
   docker-compose restart $@
 }
