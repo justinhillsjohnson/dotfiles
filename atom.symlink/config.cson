@@ -5,6 +5,9 @@
   "atom-package-deps":
     ignored: []
   core:
+    disabledPackages: [
+      "jsformat"
+    ]
     telemetryConsent: "limited"
   editor:
     fontSize: 13
